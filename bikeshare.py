@@ -95,7 +95,7 @@ def time_stats(df):
     print(f"가장 흔한 요일은: {common_day}")
 
     # 가장 많이 사용된 시간
-    df['Hour'] = df['Start Time'].dt.hour  # 'Start Time'에서 시간만 추출
+    df['Hour'] = df['Start Time'].dt.hour  
     common_hour = df['Hour'].mode()[0]
     print(f"가장 흔한 시간은: {common_hour}시")
 
@@ -143,9 +143,9 @@ def trip_duration_stats(df):
 
 def get_hours_mins_secs(total_time):
     """초 단위의 시간을 시, 분, 초로 변환합니다."""
-    hours = int(total_time // 3600)  # 전체 시간을 시간 단위로 변환
-    mins = int((total_time % 3600) // 60)  # 나머지 시간을 분 단위로 변환
-    secs = round(total_time % 60, 2)  # 남은 초 단위
+    hours = int(total_time // 3600)  
+    mins = int((total_time % 3600) // 60)  
+    secs = round(total_time % 60, 2)  
     return hours, mins, secs
 
 def user_stats(df):
