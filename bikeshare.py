@@ -18,7 +18,7 @@ def get_filters():
         month (str): 필터링할 월 이름 또는 "all" (모든 월)
         day (str): 필터링할 요일 이름 또는 "all" (모든 요일)
     """
-    print('안녕하세요! 미국 자전거 공유 데이터를 탐색해봅시다!')
+    print('안녕하세요. 지금부터 미국 자전거 공유 데이터를 탐색해보겠습니다.')
 
     # 도시 이름 입력
     city_names = list(CITY_DATA.keys())
