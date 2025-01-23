@@ -18,7 +18,7 @@ def get_filters():
         month (str): 필터링할 월 이름 또는 "all" (모든 월)
         day (str): 필터링할 요일 이름 또는 "all" (모든 요일)
     """
-    print('안녕하세요! 미국 자전거 공유 데이터를 탐색해봅시다!')
+    print('안녕하세요. 지금부터 미국 자전거 공유 데이터를 탐색해보겠습니다.')
 
     # 도시 이름 입력
     city_names = list(CITY_DATA.keys())
@@ -227,7 +227,7 @@ def main():
         # 프로그램을 다시 실행할지 여부 묻기
         restart = input('\n다시 시작하시겠습니까? "yes" 또는 "no"를 입력하세요.\n').lower()
         if restart != 'yes':
-            print("프로그램을 종료합니다. 감사합니다!")
+            print("공유 자전거 데이터 분석 프로그램을 종료하겠습니다. 감사합니다")
             break
 
 if __name__ == "__main__":
