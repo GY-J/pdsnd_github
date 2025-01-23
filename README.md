@@ -1,17 +1,27 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# 미국 자전거 공유 데이터 분석 프로젝트
 
-### Date created
-Include the date you created this project and README file.
+## Date created
+2025년 01월 23일
 
-### Project Title
-Replace the Project Title
+## Project Title
+미국 자전거 공유 데이터 분석
 
-### Description
-Describe what your project is about and what it does
+## Description
+이 프로젝트는 미국의 자전거 공유 데이터를 분석하여 사용 패턴을 이해하고 통계를 도출하는 것을 목표로 합니다. 자전거 공유 서비스는 도시 내에서 대중교통의 한 형태로 자리 잡고 있으며, 이 데이터를 통해 사용자의 행동 및 선호도를 분석할 수 있습니다.
 
-### Files used
-Include the files used
+이 프로젝트에서는 사용자가 특정 도시, 월, 요일을 선택하여 해당 조건에 맞는 자전거 사용 데이터를 필터링하고, 다양한 통계 정보를 출력할 수 있습니다. 분석 결과는 자전거 공유 서비스의 이용 현황을 파악하고, 사용자 행동을 이해하는 데 도움을 줄 수 있습니다. 또한, 이 데이터 분석을 통해 자전거 공유 서비스의 개선 방향을 제시할 수 있습니다.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+주요 분석 내용은 다음과 같습니다:
+- 가장 많이 사용된 자전거 공유 서비스의 월별 통계
+- 특정 요일에 따른 자전거 사용 패턴
+- 출발지와 도착지의 인기 있는 경로
+- 총 여행 시간 및 평균 여행 시간
+- 사용자 유형 및 성별 통계
 
+이 프로젝트는 데이터 과학 및 분석 기술을 배우고, 실제 데이터를 활용하여 유의미한 인사이트를 도출하는 데 중점을 두고 있습니다.
+
+## Files used
+- **bikeshare.py**: 자전거 공유 데이터 분석을 위한 주요 코드 파일입니다. 이 파일에는 데이터 로드, 필터링, 통계 계산 및 출력 기능이 포함되어 있습니다.
+- **chicago.csv**: 시카고의 자전거 공유 데이터가 포함된 CSV 파일입니다. 이 파일은 시카고에서의 자전거 사용 기록을 담고 있습니다.
+- **new_york_city.csv**: 뉴욕시의 자전거 공유 데이터가 포함된 CSV 파일입니다. 이 파일은 뉴욕시에서의 자전거 사용 기록을 담고 있습니다.
+- **washington.csv**: 워싱턴의 자전거 공유 데이터가 포함된 CSV 파일입니다. 이 파일은 워싱턴에서의 자전거 사용 기록을 담고 있습니다.
