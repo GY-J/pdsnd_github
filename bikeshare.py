@@ -77,7 +77,7 @@ def load_data(city, month, day):
     elif day == 'all':
         df = df_city[df_city['Month'] == month]  # 특정 월, 모든 요일
     else:
-        df = df_city[(df_city['Month'] == month) & (df_city['Day'] == day)]  # 특정 월과 요일
+        df = df_city[(df_city['Month'] == month) & (df_city['Day'] == day)]  # 특정 월, 요일
 
     return df
 
